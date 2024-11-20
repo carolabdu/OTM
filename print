@@ -5,3 +5,20 @@ if i <= 100:
 
 
 ##colocar em cada um dos métodos 
+
+
+
+#Função 1 no R2
+gradiente = grad_1
+hessiana = hess_1
+def f(x) :
+  return func1(x)
+pontos = []  
+for x in pontos:
+  print(f"Ponto inicial= {x}")
+  print("Método gradiente")
+  print(metodo_gradiente(x, 0.4, 0.1, 0.0001,20000))
+  print("Método de Newton")
+  print(newton(x, 0.8, 0.25,0.0001))
+  print("Método Quase-Newton")
+  print(quase_newton(x, 0.8, 0.25,0.0001,2,10000))

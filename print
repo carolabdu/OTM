@@ -1,0 +1,7 @@
+if i <= 100:
+      print(f"Iteração {i}: \n x = {x}, \n f(x)={f(x)} \n grad_norm = {np.linalg.norm(gradiente(x))},\n direção= {d}, \n passo t = {t}\n ")
+  print(f"Iteração {i}: \n x = {x}, \n f(x)={f(x)} \n grad_norm = {np.linalg.norm(gradiente(x))},\n direção= {d}, \n passo t = {t}\n ")
+
+
+
+##colocar em cada um dos métodos 
